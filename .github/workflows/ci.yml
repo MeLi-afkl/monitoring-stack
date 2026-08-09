@@ -17,7 +17,7 @@ jobs:
     steps:
       # Download repository code
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # The real Discord webhook is ignored by Git.
       # CI only needs a dummy file so Docker Compose can validate the config.
