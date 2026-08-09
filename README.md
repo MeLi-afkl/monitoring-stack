@@ -15,11 +15,8 @@ This project demonstrates a practical DevOps monitoring setup — the same patte
 
 ## 🏗️ Architecture
 
-┌───────────────┐      ┌────────────┐      ┌─────────┐
-│ Node Exporter │ ───▶ │ Prometheus │ ───▶ │ Grafana │
-│(system metrics)│      │ (scrapes & │      │(displays│
-│               │      │  stores)   │      │  data)  │
-└───────────────┘      └────────────┘      └─────────┘
+Node Exporter  ──▶  Prometheus  ──▶  Grafana
+(collects metrics)   (stores)      (visualizes)
 
 ## 🚀 How to Run
 
